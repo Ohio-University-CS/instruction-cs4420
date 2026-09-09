@@ -1,0 +1,7 @@
+# C compiler output
+*.o
+*.d
+*.out
+*.exe
+*.dSYM/
+/a.out

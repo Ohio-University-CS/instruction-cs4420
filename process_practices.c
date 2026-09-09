@@ -1,21 +1,21 @@
 ////////////////////////////////// Practices 1
 
-// #include <stdio.h>
-// #include <unistd.h>
+#include <stdio.h>
+#include <unistd.h>
 
-// int main()
-// {
-//     /* fork a child process */
-//     fork();
+int main()
+{
+    /* fork a child process */
+    fork();
 
-//     /* fork another child process */
-//     fork();
+    /* fork another child process */
+    fork();
 
-//     /* and fork another */
-//     fork();
+    /* and fork another */
+    fork();
 
-//     return 0;
-// }
+    return 0;
+}
 
 ////////////////////////////////// Practices 2
 

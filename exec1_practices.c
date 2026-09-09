@@ -4,7 +4,7 @@
 
 int main(int argc, char *argv[])
 {
-    printf("PID of exec1_practices.c = %d\n", getpid());
+    printf("PID of exec1_practices.c = %d\n", getppid());
     char *args[] = {"Hello", "Operating", "System", NULL};
     fork();
     printf("first fork\n");
