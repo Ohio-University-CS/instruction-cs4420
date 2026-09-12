@@ -9,8 +9,8 @@ int main() {
     write(fd[1], "DEF", 3);
 
     char buf[5] = {0};
-    read(fd[0], buf, 4);
-
+    // read(fd[0], buf, 4);
+    // int a;
     printf("%s\n", buf);
 
     char buf1[5] = {0};
